@@ -1,0 +1,436 @@
+/****************
+ * dark theme ***
+ ***************/
+
+
+body{
+  background: #222;
+  color: #fff;
+}
+.main-header{
+  border-bottom: 1px solid #444;
+}
+.header-navi .logo a,
+.navi-items a{
+  color:  #fff;
+}
+.navi-items a:hover, .navi-items a:focus, .navi-items a:active, .navi-items a.active {
+    border-bottom: 3px solid #888;
+}
+.navi-item a{
+  color: #ddd;
+}
+.navi-item a:focus, .navi-item a:focus .iconwrapper, .navi-item a:focus .movewrapper, .navi-item a:hover, .navi-item a:hover .iconwrapper, .navi-item a:hover .movewrapper, .navi-item a.active, .navi-item a.active .iconwrapper, .navi-item a.active .movewrapper {
+    background: #444;
+    color: #fff;
+}
+.navi-item .status{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.navi-item a.addNaviLink:hover{
+  background: #222;
+  color: #e0474c;
+}
+.tab-button{
+  color: #fff;
+}
+.tab-button:focus, .tab-button:hover, .tab-button:active, .tab-button.active {
+    background: #444;
+    box-shadow: none;
+    outline: none;
+}
+section{
+  box-shadow: none;
+  background: #444;
+}
+.blox:hover{
+  background: #666;
+}
+input, select, textarea,
+.cardField input, .cardField select, .cardField textarea{
+  border: 1px solid #666;
+  background-color: #666;
+  color: #fff;
+}
+select,.dropbox select, .cardField select{
+    background-image: linear-gradient(45deg, transparent 50%, #fff 50%), linear-gradient(135deg, #fff 50%, transparent 50%), linear-gradient(to right, transparent, transparent);
+}
+.button-arrow{
+  border-top: 5px solid #fff;
+}
+.expand .button-arrow{
+  border-bottom: 5px solid #fff;
+}
+input:focus, select:focus, textarea:focus,
+.cardField input:focus, .cardField select:focus, .cardField textarea:focus{
+    border: 1px solid #000;
+}
+button.format-item {
+    background: #666;
+    border: 1px solid #666;
+    color: #f9f8f6;
+}
+button.format-item:hover {
+    color: #666;
+    border: 1px solid #f9f8f6;
+    background: #f9f8f6;
+}
+.sideaction button {
+    background: #444;
+    color: #444;
+}
+.editactive .sideaction button, 
+.blox-wrapper:hover button.add, 
+.blox-wrapper:hover button.delete{
+    background: #666;
+    color: #f9f8f6;
+}
+.blox-wrapper button.add:hover {
+    background: #66b0a3;
+    color: #fff;
+}
+.blox-wrapper button.delete:hover {
+    background: #e0474c;
+    color: #fff;
+}
+.sideaction:hover ~ .background-helper {
+    background-color: #666;
+}
+.buttonset{
+  box-shadow: none;
+  background:  #444;
+}
+.blox-buttons button {
+    border: 0px solid #444;
+}
+button.hdown.headline {
+    color: #f9f8f6;
+    background: #666;
+}
+.blox-editor table{
+  background: #666;
+}
+.blox-editor td.noteditable, 
+.blox-editor th.noteditable{
+  background: #444;
+}
+.blox-editor td.noteditable:hover {
+    background: #222;
+}
+.blox-editor tr:first-child:hover td.noteditable:first-child {
+    background: #444;
+}
+.blox-editor .columnaction, .blox-editor .rowaction {
+    background: #222;
+    color: #fff;
+    border: 1px solid #000;
+}
+.blox-editor .actionline:hover {
+    background: #444;
+}
+.blox thead {
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+    background: #444;
+}
+.blox-editor th {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.blox tr:nth-child(2n) {
+    background-color: #444;
+}
+.blox blockquote {
+    border-left: 4px solid #666;
+    background: #222;
+}
+button.hdown{
+  border-right: 0px;
+}
+button.note1,
+button.note2,
+button.note3,
+button.note4,
+button.note5{
+    background-color: #222;
+}
+.notice1 {
+    border-left: 10px solid #666;
+    background: #222;
+}
+.notice2 {
+  border-left: 10px solid #222;
+  background-color: #666;
+}
+.notice3{
+  border-left: 10px solid #bbb;
+  background-color: #888;
+}
+.notice4, .notice5, .notice6 {
+    border-left: 10px solid #888;
+    background-color: #bbb;
+    color: #222;
+}
+.blox pre, .blox code {
+    white-space: pre;
+    color: #fff;
+    background: #666;
+}
+.blox pre {
+    border-left: 4px solid #222;
+}
+.blox ul.TOC {
+    background: #444;
+}
+.blox dl {
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}   
+.imageselect{
+    background: #666;
+    color: #fff;
+    border-left: 1px solid #bbb;
+}
+.dropbox{
+    background: #666;
+}
+.dropbox input, .dropbox select {
+    background-color: #444;
+}
+.definitionList {
+    background: #666;
+}
+.definitionRow input, .definitionRow textarea {
+    background: #444;
+}
+.blox-overlay{
+  background: rgba(0,0,0,0.6);
+}
+.format-bar.blox {
+    background: #444;
+}
+.newblock-info {
+    background: #444
+}
+fieldset, fieldset.fs-formbuilder, .settings fieldset.fs-formbuilder {
+    border: 1px solid #666;
+}
+.modalInner {
+    background: #222;
+    box-shadow: 0px 0px 10px rgba(255,255,255,.2);
+}
+
+/* SETTINGS PAGE */
+
+.sidebar-menu a{
+  color: #ddd;
+  border-color: #444;
+}
+.sidebar-menu a:hover,
+.sidebar-menu a:focus,
+.sidebar-menu a:active,
+.sidebar-menu a.active{
+  background: #444;
+  color: #fff;
+}
+
+.settings fieldset,
+.themes fieldset,
+.plugins fieldset{
+  border: none;
+}
+.deletefilebutton,.function-delete-img{
+  background: #666;
+  border-right: 1px solid #000;
+  color: #fff;
+}
+
+.themes .cardInner,
+.plugins .cardInner{
+  border: 1px solid #666;
+  background-color: #444;
+  color:  #fff;
+}
+.plugins .cardHead header{
+  background-color: #444;
+  color:  #fff;
+  border-bottom: 1px solid #666;
+  height: auto;  
+}
+.themes .cardInner.cardFields,
+.plugins .cardInner.cardFields{
+  border: 0px;
+}
+.themes .cardInfo li,
+.plugins .cardInfo li{
+  color: #fff;
+}
+li.row.header ul{
+  background: #222;
+}
+li.col.username, li.col.email, li.col.userrole, li.col.edit{
+  border: 1px solid #666;
+}
+li.row ul{
+  background: #444;
+}
+.editor.buttonset{
+  border-top: 1px solid #222;
+}
+.medialib{
+  background: #444;
+  color: #222;
+  border: 1px solid #222;
+}
+.medialib .w-95{
+  background: #444;
+  color: #fff;
+}
+.medialib .w-95 .black-30{
+  color: #fff;
+}
+.medialib button{
+  border: none;
+}
+
+.authformWrapper{
+  background: #444;
+}
+fieldset.auth{
+  border: 0px;
+}
+.setupContent a, .setupContent a:link, .setupContent a:visited{
+  color: #e0474c;
+}
+
+.definitionList button{
+  border: 0px;
+}
+
+aside.sidebar{
+  background: #444;
+}
+.navi-list .iconwrapper{
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .navi-item a .movewrapper, 
+  .navi-item a:link .movewrapper, 
+  .navi-item a:visited .movewrapper{
+    color: #222;
+  }
+  .navi-item a:hover .movewrapper,
+  .navi-item a.active .movewrapper{
+    color: #ddd;
+  }
+  .navi-list .iconwrapper{
+    display: block;
+  }
+  aside.sidebar{
+    background: transparent;
+  }
+
+}
+
+
+
+/*!
+  Theme: a11y-dark
+  Author: @ericwbailey
+  Maintainer: @ericwbailey
+
+  Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css
+*/
+
+.hljs {
+  background: #2b2b2b;
+  color: #f8f8f2;
+}
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
